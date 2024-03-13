@@ -1,0 +1,21 @@
+body {
+    font-family: consolas, bahnschrift light;;
+}
+.pages {
+    text-align: center;
+}
+.pages a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pages a.active {
+    background-color: darkgray;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pages a:hover:not(.active) {
+    background-color: rgb(228, 227, 227);
+    border-radius: 5px;
+}

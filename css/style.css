@@ -1,0 +1,78 @@
+body {
+    background-image: url(media/naruto-6383641_1920.png);
+    background-size: cover;
+    font-family: consolas, bahnschrift light;
+}
+#p1 {
+    color: blueviolet;
+    font-size: 16px;
+}
+#p2 {
+    border-bottom: 1px dotted rgb(0, 120, 120);
+}
+.last2 {
+    color: tomato;
+    font-size: 1em;
+}
+h1 {
+    border: 2px dashed rgb(0, 120, 120);
+    border-radius: 4px;
+}
+#gaara {
+    float: left;
+    margin-right: 10px;
+}
+#div1 {
+    border: 2px solid;
+    height: 80px;
+    overflow: auto;
+}
+#container > p {
+    color: blueviolet;
+}
+a:link {
+    color: rgb(51, 202, 45);
+}
+a:hover {
+    color: rgb(255, 0, 13);
+}
+#index p {
+    display: none;
+}
+#index:hover p {
+    display: block;
+}
+li:hover {
+    background-color: aqua;
+}
+p::first-letter {
+    font-size: 2em;
+    font-style: italic;
+}
+p::selection {
+    color: rgb(89, 255, 71);
+    background-color: darkgray;
+}
+#rappers li::before {
+    
+}
+#eminem::after {
+    content: "👨🏻‍🦳";
+}
+#drake::after {
+    content: "🧔🏻‍♂️";
+}
+#kanye::after {
+    content: "🧔🏿‍♂️";
+}
+#jay::after {
+    content: "👴🏽";
+}
+#wayne::after {
+    content: "👨🏿";
+}
+#rappers li::marker {
+    content: "✔️";
+    font-size: 1.2em;
+    color: brown;
+}
