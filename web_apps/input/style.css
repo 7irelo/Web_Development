@@ -1,0 +1,23 @@
+body
+{
+    font-family: cursive;
+}
+#headerdiv
+{
+    text-align: center;
+    display: block;
+}
+.submitbtn
+{
+    padding: 0px 12px;
+    background-color: rgb(234, 189, 245);
+    border-radius: 5px;
+}
+.submitbtn:hover
+{
+    background-color: rgb(223, 143, 243);
+}
+.inputfield
+{
+    font-family: bahnschrift;
+}

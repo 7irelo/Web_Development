@@ -1,0 +1,23 @@
+body {
+    font-family: bahnschrift;
+}
+#count {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+}
+#buttons {
+    text-align: center;
+}
+.buttons {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(163, 89, 233);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons:hover {
+    background-color: rgb(194, 139, 245) ;
+}
